@@ -1,0 +1,9 @@
+server:
+  applicationConnectors:
+  - type: http
+    port: 9080
+logging:
+  level: INFO
+  loggers:
+    com.knowledgefactory.dev: DEBUG
+defaultName: sibin
