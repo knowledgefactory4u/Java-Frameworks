@@ -15,10 +15,7 @@ import java.io.File;
 public class GreetingResource {
     @Inject
     Mailer mailer;
-    @Inject
-
-    @Location("index")
-    MailTemplate index;
+   
 
     //Send Simple Text
     @GET
